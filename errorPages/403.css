@@ -1,0 +1,55 @@
+@media screen and (min-width: 850px){
+    body {
+        background-image: url(403.jpg);
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+
+
+    #text-block {
+        font-size: 30px;
+        background-color: black;
+        color: white;
+        position: absolute;
+        text-align: center;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-left: 15%;
+        margin-top: 10%;
+    }
+
+    #block {
+        font-family: 'Krona One', sans-serif;
+        background-color: #ffffff;
+        opacity: 0.6;
+        filter: alpha(opacity=60);
+    }
+}
+
+body {
+    background-image: url(403.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-position: 80%;
+}
+
+#text-block {
+    font-size: 20px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    position: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+#block {
+    font-family: 'Krona One', sans-serif;
+    background-color: #ffffff;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+}
+

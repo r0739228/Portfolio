@@ -1,0 +1,19 @@
+#gaming {	
+    display: initial;
+} 
+
+#primair, #luxe {	
+    display: none;
+} 
+
+* {	
+    background-color: #666a6d; 
+    color: white;
+}
+
+#image {
+    height: 200px;
+    background-image: url(../afbeeldingen/medium.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+}

@@ -1,0 +1,25 @@
+// Override Bs4 variables and custom mixins
+$theme-colors: (
+        "secondary": #545454,
+        "secondary-darker": #515151
+);
+// Link to BS4
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// Custom code/partials
+@import "basis";
+@import "menu";
+@import "animations";
+
+//geschiedenis
+@import "geschiedenis/timeline";
+
+//merken
+@import "merken/tabs";
+
+//voorbeelden
+@import "voorbeelden/voorbeeldenmenu";
+
+//weetjes
+@import "weetjes/accordion";
+@import "weetjes/keuzes";

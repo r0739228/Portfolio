@@ -1,0 +1,46 @@
+#luxe {
+    display: initial;
+}
+
+#primair,
+#gaming {
+    display: none;
+}
+
+* {
+    background-color: white;
+    color: black;
+}
+
+#image {
+    height: 200px;
+    background-image: url(../afbeeldingen/groot.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+h2 {
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+    line-height: 1.6;
+}
+
+#container {
+    width: 900px;
+    margin: auto;
+}
+
+#luxe .geheel {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#luxe .geheel p {
+    width: 40%;
+    background-color: grey;
+    border: 2px red solid;
+    padding: 15px;
+    margin: 05px;
+}

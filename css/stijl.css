@@ -1,0 +1,25 @@
+/* in tent.min.css wijzig je NIETS */
+/* schrijf in dit bestand je eigen stijlregels om opmaak te regelen die NIET via tent.min.css aangebracht kan worden */
+
+.background_color_light_red {
+    background-color: #ef5350;
+}
+
+.menu_hover:hover {
+    color: #6E6E6E;
+}
+
+.linken_hover:hover {
+    color: #ef5350;
+}
+
+.background_image_1 {
+    background-image: url("../afbeeldingen/background1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+body {
+    font-family: 'Inder', sans-serif;
+}
